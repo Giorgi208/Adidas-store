@@ -6,17 +6,56 @@ body{
 .box{
     width: 350px;
     background: rgba(255, 200, 0, 0.5);
-    padding: 40px;
+    padding: 50px;
+    margin: auto;
     text-align: center;
     display: inline-block;
+
 }
 
-div img{
-    width: 300px;
-    height: 300px;
+.b img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
 .b{
-    margin: 30px
+    margin: 170px 0px 50px 35px;
+}
+
+
+nav {
+    background: rgba(255, 200, 0, 1);
+    height: 50px;
+    display: flex;
+
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 65%;
+}
+#logo {
+    height: 46px;
+    margin: 2px 0px 0px 2px;
+}
+
+#menu li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    color: white;
+    background: rgba(255, 200, 0, 1);
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
 }
